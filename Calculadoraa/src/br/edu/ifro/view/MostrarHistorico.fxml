@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.view.MostrarHistoricoController">
+   <children>
+      <Separator layoutY="48.0" prefHeight="0.0" prefWidth="600.0" />
+      <Label layoutX="51.0" layoutY="7.0" text="Mostrar Histórico">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <TableView layoutX="14.0" layoutY="62.0" prefHeight="256.0" prefWidth="574.0">
+        <columns>
+          <TableColumn fx:id="valorUm" prefWidth="131.0" text="Número 1" />
+          <TableColumn fx:id="valorDois" prefWidth="122.0" text="Número 2" />
+            <TableColumn fx:id="txtOperacao" prefWidth="136.0" text="Operação" />
+            <TableColumn fx:id="txtResultado" prefWidth="184.0" text="Resultado" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="10.0" layoutY="7.0">
+         <image>
+            <Image url="@/img/relatorio.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

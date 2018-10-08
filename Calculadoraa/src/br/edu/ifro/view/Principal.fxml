@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="406.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.control.PrincipalController">
+   <children>
+      <Button fx:id="btnMostrarHistorico" layoutX="173.0" layoutY="371.0" mnemonicParsing="false" onAction="#mostrarHistorico" prefHeight="25.0" prefWidth="121.0" text="Mostrar Histórico" />
+      <Button fx:id="btnSair" layoutX="301.0" layoutY="371.0" mnemonicParsing="false" onAction="#sair" prefHeight="25.0" prefWidth="89.0" text="Sair" />
+      <Button fx:id="btnDivisao" layoutX="301.0" layoutY="251.0" mnemonicParsing="false" onAction="#dividir" prefHeight="70.0" prefWidth="77.0" text="Divisão" />
+      <Button fx:id="btnMultiplicar" layoutX="212.0" layoutY="251.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="70.0" prefWidth="77.0" text="Multiplicar" />
+      <Button fx:id="btnSubtrair" layoutX="123.0" layoutY="251.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="70.0" prefWidth="77.0" text="Subtrair" />
+      <Button fx:id="btnSomar" layoutX="35.0" layoutY="251.0" mnemonicParsing="false" onAction="#somar" prefHeight="70.0" prefWidth="77.0" text="Somar" />
+      <Label layoutX="39.0" layoutY="172.0" text="Resultado" />
+      <Label layoutX="39.0" layoutY="118.0" text="Digite o Segundo Valor" />
+      <Label layoutX="39.0" layoutY="68.0" text="Digite o Primeiro Valor" />
+      <TextField fx:id="valorResultado" editable="false" layoutX="39.0" layoutY="190.0" prefHeight="25.0" prefWidth="330.0" />
+      <TextField fx:id="valorDois" layoutX="39.0" layoutY="137.0" prefHeight="25.0" prefWidth="330.0" />
+      <TextField fx:id="valorUm" layoutX="39.0" layoutY="85.0" prefHeight="25.0" prefWidth="330.0" />
+      <Separator layoutX="10.0" layoutY="49.0" prefHeight="2.0" prefWidth="387.0" />
+      <Label layoutX="60.0" layoutY="14.0" text="Calculadora">
+         <font>
+            <Font name="Verdana Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="46.0" layoutX="9.0" layoutY="4.0">
+         <image>
+            <Image url="@/img/calculadora.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
